@@ -91,7 +91,7 @@ function AddItemForm({ onNewItem }) {
 
     return (
         <Form onSubmit={submitNewItem}>
-            <h1>Todo App</h1>
+            <h2>Todo App</h2>
             <InputGroup className="mb-3">
                 <Form.Control
                     value={newItem}
